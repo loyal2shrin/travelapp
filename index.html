@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaoWaiChina • Travel Guide for International Visitors 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        .hero-bg {
+            background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('https://picsum.photos/id/1015/1920/1080');
+            background-size: cover;
+            background-position: center;
+        }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <span class="text-3xl">🏯</span>
+                <div>
+                    <h1 class="text-2xl font-bold text-red-600">LaoWaiChina</h1>
+                    <p class="text-xs text-gray-500 -mt-1">For International Travelers</p>
+                </div>
+            </div>
+            
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
+                <a href="#" class="hover:text-red-600 transition">Destinations</a>
+                <a href="#" class="hover:text-red-600 transition">Itineraries</a>
+                <a href="#" class="hover:text-red-600 transition">Visa &amp; Essentials</a>
+                <a href="#" class="hover:text-red-600 transition">Blog</a>
+            </nav>
+
+            <div class="flex items-center gap-4">
+                <select class="bg-transparent text-sm border border-gray-300 rounded-lg px-3 py-1.5 focus:outline-none">
+                    <option value="en">🇬🇧 English</option>
+                    <option value="zh">🇨🇳 中文</option>
+                    <option value="fr">🇫🇷 Français</option>
+                    <option value="de">🇩🇪 Deutsch</option>
+                </select>
+                <button onclick="alert('Search functionality coming soon!')" 
+                        class="px-5 py-2 bg-gray-100 hover:bg-gray-200 rounded-full text-sm flex items-center gap-2">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <span>Search</span>
+                </button>
+                <button onclick="alert('Personalized planning tool coming soon!')" 
+                        class="px-6 py-2.5 bg-red-600 hover:bg-red-700 text-white rounded-full text-sm font-semibold transition">
+                    Plan My Trip
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero-bg h-screen flex items-center text-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+                Discover China,<br>Your Way
+            </h2>
+            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
+                48+ countries enjoy 30-day visa-free travel • Ancient wonders, futuristic cities &amp; breathtaking nature
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <button onclick="document.getElementById('itineraries').scrollIntoView({ behavior: 'smooth' })" 
+                        class="px-10 py-4 bg-red-600 hover:bg-red-700 text-white rounded-2xl text-lg font-semibold transition">
+                    Start Planning Free
+                </button>
+                <button onclick="document.getElementById('visa').scrollIntoView({ behavior: 'smooth' })" 
+                        class="px-10 py-4 border-2 border-white hover:bg-white hover:text-black rounded-2xl text-lg font-semibold transition">
+                    Check Visa-Free Now
+                </button>
+            </div>
+            <div class="mt-12 flex justify-center gap-8 text-sm">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-train text-2xl"></i>
+                    <div>
+                        <div class="font-semibold">High-Speed Rail</div>
+                        <div class="text-xs opacity-75">Efficient &amp; Comfortable</div>
+                    </div>
+                </div>
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-mobile-screen text-2xl"></i>
+                    <div>
+                        <div class="font-semibold">Easy Apps</div>
+                        <div class="text-xs opacity-75">Alipay • Didi • Trip.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top 10 Cities -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-3">Top 6 Cities for International Visitors 2026</h2>
+            <p class="text-center text-gray-600 mb-12">Based on 2025 visitor data and traveler feedback</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- City 1 -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg card-hover border border-gray-100">
+                    <img src="E:\IdeaProjects\travelapp\img\beijing.png" class="w-full h-48 object-cover" alt="Bei Jing">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <span class="text-red-700 font-bold text-2xl">1</span>
+                                <h2 class="text-2xl font-semibold">Bei Jing</h2>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-700 mt-2">
+                            Great Wall & Forbidden City Explore the Ancient Capital Stroll Hutongs & Taste Authentic Peking Duck!
+                        </p>
+                        <div class="mt-4 text-xs flex gap-2">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🏯 Forbidden City</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🧱 Great Wall</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🏘️ Hutongs</span>
+                        </div>
+                        <div class="mt-4 text-xs flex gap-2">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🦆 Peking Duck</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">📏 Central Axis</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- City 2 -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg card-hover border border-gray-100">
+                    <img src="E:\IdeaProjects\travelapp\img\shanghai.png" class="w-full h-48 object-cover" alt="Shang Hai">
+                    <div class="p-6">
+                        <div class="flex justify-between items-start">
+                            <div>
+                                <span class="text-red-600 font-bold text-2xl">2</span>
+                                <h3 class="text-2xl font-semibold">Shang Hai</h3>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-600 mt-2">
+                            Neon Nights in Shanghai: The Magic East
+Climb Lujiazui Skyscrapers & Enjoy The Bund Lights!
+                        </p>
+                        <div class="mt-4 text-xs flex gap-2">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🌉 The Bund</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🏙️ Lujiazui</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🌃 Skyline</span>
+                            </div>
+                        <div class="mt-4 text-xs flex gap-2">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🥟 Soup Dumplings</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">👗 Fashion</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- City 3-5 (简略) -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg card-hover border border-gray-100">
+                    <img src="E:\IdeaProjects\travelapp\img\chengdu.jpeg" class="w-full h-48 object-cover" alt="Chengdu">
+                    <div class="p-6">
+                        <div><span class="text-red-600 font-bold text-2xl">5</span><h3 class="text-2xl font-semibold">Cheng Du</h3></div>
+                        <p class="text-sm text-gray-600 mt-2">
+                            Pandas & Hotpot Lifestyle
+Relax in Tea Houses & Watch Sichuan Opera Magic!
+                        </p>
+                        <div class="mt-4 text-xs flex gap-2">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🐼 Pandas</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🍲 Hotpot</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">☕ Tea Houses</span>
+                        </div>
+                        <div class="mt-4 text-xs flex gap-2">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🎭 Sichuan Opera</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🛋️ Relaxed Lifestyle</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg card-hover border border-gray-100">
+                    <img src="E:\IdeaProjects\travelapp\img\xian.jpeg" class="w-full h-48 object-cover" alt="xian">
+                    <div class="p-6">
+                        <div><span class="text-red-600 font-bold text-2xl">7</span><h3 class="text-2xl font-semibold">Xi An</h3></div>
+                        <p class="text-sm text-gray-600 mt-2">
+                            Terracotta Army & Ancient Silk Road
+Walk the City Wall & Taste Roujiamo, Travel Through History!
+                        </p>
+                        <div class="mt-4 text-xs flex gap-2">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🏺 Terracotta Army</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🏰 City Wall</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🥪 Roujiamo</span>
+                        </div>
+                        <div class="mt-4 text-xs flex gap-2">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🕍 Giant Wild Goose Pagoda</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">📜 History</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg card-hover border border-gray-100">
+                    <img src="E:\IdeaProjects\travelapp\img\hangzhou.jpeg" class="w-full h-48 object-cover" alt="hangzhou">
+                    <div class="p-6">
+                        <div><span class="text-red-600 font-bold text-2xl">10</span><h3 class="text-2xl font-semibold">Hang Zhou</h3></div>
+                        <p class="text-sm text-gray-600 mt-2">
+                            West Lake & Paradise
+Boat on West Lake & Sip Longjing Tea, Experience Serenity!
+                        </p>
+                        <div class="mt-4 text-xs flex gap-2">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🌊 West Lake</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🍵 Longjing Tea</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🏞️ Jiangnan</span>
+                        </div>
+                        <div class="mt-4 text-xs flex gap-2">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🏘️ Water Towns</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">💻 E-commerce</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg card-hover border border-gray-100">
+                    <img src="E:\IdeaProjects\travelapp\img\guiling.jpeg" class="w-full h-48 object-cover" alt="Guilin">
+                    <div class="p-6">
+                        <div><span class="text-red-600 font-bold text-2xl">10</span><h3 class="text-2xl font-semibold">Gui Lin</h3></div>
+                        <p class="text-sm text-gray-600 mt-2">
+                            Li River & Scenic Mountains
+Bamboo Rafting & Cycling, Picture-perfect Scenery!
+                        </p>
+                        <div class="mt-4 text-xs flex gap-2">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🏞️ Karst Mountains</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🛶 Li River</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🚴‍♂️ Cycling</span>
+                        </div>
+                        <div class="mt-4 text-xs flex gap-2">
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🌄 Landscapes</span>
+                            <span class="bg-gray-100 px-3 py-1 rounded-full">🎋 Bamboo Rafts</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-10">
+                <button onclick="alert('Full city ranking would open here')" 
+                        class="px-8 py-3 border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white rounded-2xl font-medium">
+                    View All 10 Cities →
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Itineraries -->
+    <section id="itineraries" class="py-16 bg-gray-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">Popular Travel Routes for Foreign Visitors</h2>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Itinerary Card -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-xl card-hover">
+                    <img src="E:\IdeaProjects\travelapp\img\beijing_xian_shanghai.jpeg" class="w-full h-56 object-cover" alt="Golden Triangle">
+                    <div class="p-8">
+                        <div class="flex justify-between">
+                            <span class="bg-amber-100 text-amber-700 text-xs font-bold px-4 py-2 rounded-3xl">Rank #1</span>
+                            <span class="text-sm text-gray-500">8-10 Days</span>
+                        </div>
+                        <h4 class="text-2xl font-bold mt-4">Golden Triangle Classic Tour</h4>
+                        <p class="text-gray-600 mt-2">Beijing → Xi'an → Shanghai</p>
+                        <div class="mt-6 flex flex-wrap gap-2">
+                            <span class="text-xs bg-gray-100 px-3 py-1 rounded-full">Great Wall</span>
+                            <span class="text-xs bg-gray-100 px-3 py-1 rounded-full">Forbidden City</span>
+                            <span class="text-xs bg-gray-100 px-3 py-1 rounded-full">Terracotta Army</span>
+                        </div>
+                        <div class="mt-4 text-xs flex gap-2">
+                            <span class="text-xs bg-gray-100 px-3 py-1 rounded-full">Ancient City Wall</span>
+                            <span class="text-xs bg-gray-100 px-3 py-1 rounded-full">Bamboo Rafts</span>
+                        </div>
+                        <button onclick="alert('Full itinerary would load here')" 
+                                class="mt-8 w-full py-4 bg-black text-white rounded-2xl hover:bg-gray-800 transition">
+                            View Full Itinerary
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Repeat for other itineraries -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-xl card-hover">
+                    <img src="E:\IdeaProjects\travelapp\img\chengdu_guiling_beijing.jpeg" class="w-full h-56 object-cover" alt="Panda">
+                    <div class="p-8">
+                        <div class="flex justify-between">
+                            <span class="bg-green-100 text-green-700 text-xs font-bold px-4 py-2 rounded-3xl">Rank #2</span>
+                            <span class="text-sm text-gray-500">7-10 Days</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mt-4">Chengdu Panda & Guilin Karst Tour</h3>
+                        <p class="text-gray-600 mt-2">Chengdu → Guilin/Yangshuo → Beijing</p>
+                        <div class="mt-6 flex flex-wrap gap-2">
+                            <span class="text-xs bg-gray-100 px-3 py-1 rounded-full">Great Wall</span>
+                            <span class="text-xs bg-gray-100 px-3 py-1 rounded-full">Terracotta Warriors</span>
+                            <span class="text-xs bg-gray-100 px-3 py-1 rounded-full">Modern Shanghai</span>
+                        </div>
+                        <button onclick="alert('Full itinerary would load here')" 
+                                class="mt-8 w-full py-4 bg-black text-white rounded-2xl hover:bg-gray-800 transition">
+                            View Full Itinerary
+                        </button>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-3xl overflow-hidden shadow-xl card-hover">
+                    <img src="E:\IdeaProjects\travelapp\img\shanghai_hangzhou_suzhou.jpeg" class="w-full h-56 object-cover" alt="Avatar">
+                    <div class="p-8">
+                        <div class="flex justify-between">
+                            <span class="bg-blue-100 text-blue-700 text-xs font-bold px-4 py-2 rounded-3xl">Rank #3</span>
+                            <span class="text-sm text-gray-500">10-14 Days</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mt-4">China Ancient History & Culture Tour</h3>
+                        <p class="text-gray-600 mt-2">Shanghai → Hangzhou → Suzhou</p>
+                        <div class="mt-6 flex flex-wrap gap-2">
+                            <span class="text-xs bg-gray-100 px-3 py-1 rounded-full">Great Wall</span>
+                            <span class="text-xs bg-gray-100 px-3 py-1 rounded-full">Terracotta Warriors</span>
+                            <span class="text-xs bg-gray-100 px-3 py-1 rounded-full">Modern Shanghai</span>
+                        </div>
+                        <button onclick="alert('Full itinerary would load here')" 
+                                class="mt-8 w-full py-4 bg-black text-white rounded-2xl hover:bg-gray-800 transition">
+                            View Full Itinerary
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Travel Essentials -->
+    <section id="visa" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">Travel Essentials for Foreign Tourists</h2>
+            
+            <div class="grid md:grid-cols-3 gap-10">
+                <!-- Visa -->
+                <div class="border border-gray-200 rounded-3xl p-8 hover:border-red-300 transition">
+                    <h3 class="text-2xl font-semibold mb-6 flex items-center gap-3">
+                        <i class="fa-solid fa-passport text-red-600"></i> Visa Made Easy
+                    </h3>
+                    <ul class="space-y-4">
+                        <li class="flex gap-3">
+                            <span class="text-green-600">✓</span>
+                            <div>48 countries enjoy <strong>30-day visa-free</strong> entry (extended to Dec 2026)</div>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="text-green-600">✓</span>
+                            <div>Hainan 30-day visa-free</div>
+                        </li>
+                        <li class="flex gap-3">
+                            <span class="text-green-600">✓</span>
+                            <div>240-hour transit visa-free in many cities</div>
+                        </li>
+                    </ul>
+                    <button onclick="alert('Visa checker tool coming soon')" 
+                            class="mt-8 w-full py-4 border border-red-600 text-red-600 rounded-2xl hover:bg-red-50">
+                        Check My Visa Eligibility
+                    </button>
+                </div>
+
+                <!-- Apps -->
+                <div class="border border-gray-200 rounded-3xl p-8 hover:border-red-300 transition">
+                    <h3 class="text-2xl font-semibold mb-6 flex items-center gap-3">
+                        <i class="fa-solid fa-mobile-screen text-red-600"></i> Must-Have Apps
+                    </h3>
+                    <div class="space-y-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-blue-100 rounded-2xl flex items-center justify-center text-2xl">💰</div>
+                            <div>
+                                <div class="font-semibold">Alipay Tour Pass</div>
+                                <div class="text-sm text-gray-600">Best for international cards</div>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 bg-green-100 rounded-2xl flex items-center justify-center text-2xl">🚕</div>
+                            <div>
+                                <div class="font-semibold">Didi + Trip.com</div>
+                                <div class="text-sm text-gray-600">Transport &amp; tickets</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tips -->
+                <div class="border border-gray-200 rounded-3xl p-8 hover:border-red-300 transition">
+                    <h3 class="text-2xl font-semibold mb-6">Pro Tips</h3>
+                    <ul class="space-y-3 text-sm">
+                        <li>• Get a reliable VPN before arrival</li>
+                        <li>• Use Trip.com to book high-speed trains</li>
+                        <li>• Real-name verification needed for transport</li>
+                        <li>• Spring &amp; Autumn = best seasons</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-16">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
+            <div>
+                <div class="flex items-center gap-3 text-white mb-6">
+                    <span class="text-4xl">🏯</span>
+                    <h3 class="text-2xl font-bold">LaoWaiChina</h3>
+                </div>
+                <p class="text-sm">Your trusted guide to traveling in China in 2026</p>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white">Top Cities</a></li>
+                    <li><a href="#" class="hover:text-white">Itineraries</a></li>
+                    <li><a href="#" class="hover:text-white">Visa Information</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white mb-4">Resources</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white">Travel Apps Guide</a></li>
+                    <li><a href="#" class="hover:text-white">High-Speed Rail Tips</a></li>
+                    <li><a href="#" class="hover:text-white">Safety &amp; Culture</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white mb-4">Stay Connected</h4>
+                <div class="flex gap-4 text-2xl">
+                    <i class="fa-brands fa-weixin hover:text-white cursor-pointer"></i>
+                    <i class="fa-brands fa-instagram hover:text-white cursor-pointer"></i>
+                    <i class="fa-brands fa-tiktok hover:text-white cursor-pointer"></i>
+                </div>
+                <p class="text-xs mt-8">Data updated May 2026</p>
+            </div>
+        </div>
+        <div class="text-center text-xs mt-16 border-t border-gray-800 pt-8">
+            © 2026 LaoWaiChina Guide • For demonstration purposes only
+        </div>
+    </footer>
+
+    <script>
+        // Tailwind script already included via CDN
+        console.log("%cExploreChina Homepage Loaded Successfully! 🚀", "color: #dc2626; font-weight: bold");
+    </script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZR5CLEEHMK"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZR5CLEEHMK');
+</script>
+</body>
+</html>
