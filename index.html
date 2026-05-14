@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +9,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <style>
         .hero-bg {
-            background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url('https://picsum.photos/id/1015/1920/1080');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('https://picsum.photos/id/1015/1920/1080');
             background-size: cover;
             background-position: center;
         }
+
         .card-hover {
             transition: all 0.3s ease;
         }
+
         .card-hover:hover {
             transform: translateY(-8px);
             box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
         }
     </style>
 </head>
+
 <body class="bg-gray-50 font-sans">
 
     <!-- Header -->
@@ -35,7 +39,7 @@
                     <p class="text-xs text-gray-500 -mt-1">For International Travelers</p>
                 </div>
             </div>
-            
+
             <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
                 <a href="#" class="hover:text-red-600 transition">Destinations</a>
                 <a href="itinerary/beijing-itinerary.html" class="hover:text-red-600 transition">Itineraries</a>
@@ -50,13 +54,13 @@
                     <option value="fr">🇫🇷 Français</option>
                     <option value="de">🇩🇪 Deutsch</option>
                 </select>
-                <button onclick="alert('Search functionality coming soon!')" 
-                        class="px-5 py-2 bg-gray-100 hover:bg-gray-200 rounded-full text-sm flex items-center gap-2">
+                <button onclick="alert('Search functionality coming soon!')"
+                    class="px-5 py-2 bg-gray-100 hover:bg-gray-200 rounded-full text-sm flex items-center gap-2">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <span>Search</span>
                 </button>
-                <button onclick="alert('Personalized planning tool coming soon!')" 
-                        class="px-6 py-2.5 bg-red-600 hover:bg-red-700 text-white rounded-full text-sm font-semibold transition">
+                <button onclick="alert('Personalized planning tool coming soon!')"
+                    class="px-6 py-2.5 bg-red-600 hover:bg-red-700 text-white rounded-full text-sm font-semibold transition">
                     Plan My Trip
                 </button>
             </div>
@@ -70,15 +74,16 @@
                 Discover China,<br>Your Way
             </h2>
             <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-                48+ countries enjoy 30-day visa-free travel • Ancient wonders, futuristic cities &amp; breathtaking nature
+                48+ countries enjoy 30-day visa-free travel • Ancient wonders, futuristic cities &amp; breathtaking
+                nature
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <button onclick="document.getElementById('itineraries').scrollIntoView({ behavior: 'smooth' })" 
-                        class="px-10 py-4 bg-red-600 hover:bg-red-700 text-white rounded-2xl text-lg font-semibold transition">
+                <button onclick="document.getElementById('itineraries').scrollIntoView({ behavior: 'smooth' })"
+                    class="px-10 py-4 bg-red-600 hover:bg-red-700 text-white rounded-2xl text-lg font-semibold transition">
                     Start Planning Free
                 </button>
-                <button onclick="document.getElementById('visa').scrollIntoView({ behavior: 'smooth' })" 
-                        class="px-10 py-4 border-2 border-white hover:bg-white hover:text-black rounded-2xl text-lg font-semibold transition">
+                <button onclick="document.getElementById('visa').scrollIntoView({ behavior: 'smooth' })"
+                    class="px-10 py-4 border-2 border-white hover:bg-white hover:text-black rounded-2xl text-lg font-semibold transition">
                     Check Visa-Free Now
                 </button>
             </div>
@@ -106,11 +111,11 @@
         <div class="max-w-7xl mx-auto px-6">
             <h2 class="text-4xl font-bold text-center mb-3">Top 6 Cities for International Visitors 2026</h2>
             <p class="text-center text-gray-600 mb-12">Based on 2025 visitor data and traveler feedback</p>
-            
+
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- City 1 -->
                 <div class="bg-white rounded-3xl overflow-hidden shadow-lg card-hover border border-gray-100">
-                    <img src="img/beijing.png" class="w-full h-48 object-cover" alt="Bei Jing">
+                    <a href="destinations/beijing-guide.html"><img src="img/beijing.png" class="w-full h-48 object-cover" alt="Bei Jing"></a>
                     <div class="p-6">
                         <div class="flex justify-between items-start">
                             <div>
@@ -119,7 +124,8 @@
                             </div>
                         </div>
                         <p class="text-sm text-gray-700 mt-2">
-                            Great Wall & Forbidden City Explore the Ancient Capital Stroll Hutongs & Taste Authentic Peking Duck!
+                            Great Wall & Forbidden City Explore the Ancient Capital Stroll Hutongs & Taste Authentic
+                            Peking Duck!
                         </p>
                         <div class="mt-4 text-xs flex gap-2">
                             <span class="bg-gray-100 px-3 py-1 rounded-full">🏯 Forbidden City</span>
@@ -145,13 +151,13 @@
                         </div>
                         <p class="text-sm text-gray-600 mt-2">
                             Neon Nights in Shanghai: The Magic East
-Climb Lujiazui Skyscrapers & Enjoy The Bund Lights!
+                            Climb Lujiazui Skyscrapers & Enjoy The Bund Lights!
                         </p>
                         <div class="mt-4 text-xs flex gap-2">
                             <span class="bg-gray-100 px-3 py-1 rounded-full">🌉 The Bund</span>
                             <span class="bg-gray-100 px-3 py-1 rounded-full">🏙️ Lujiazui</span>
                             <span class="bg-gray-100 px-3 py-1 rounded-full">🌃 Skyline</span>
-                            </div>
+                        </div>
                         <div class="mt-4 text-xs flex gap-2">
                             <span class="bg-gray-100 px-3 py-1 rounded-full">🥟 Soup Dumplings</span>
                             <span class="bg-gray-100 px-3 py-1 rounded-full">👗 Fashion</span>
@@ -163,10 +169,12 @@ Climb Lujiazui Skyscrapers & Enjoy The Bund Lights!
                 <div class="bg-white rounded-3xl overflow-hidden shadow-lg card-hover border border-gray-100">
                     <img src="img/chengdu.jpeg" class="w-full h-48 object-cover" alt="Chengdu">
                     <div class="p-6">
-                        <div><span class="text-red-600 font-bold text-2xl">3</span><h3 class="text-2xl font-semibold">Cheng Du</h3></div>
+                        <div><span class="text-red-600 font-bold text-2xl">3</span>
+                            <h3 class="text-2xl font-semibold">Cheng Du</h3>
+                        </div>
                         <p class="text-sm text-gray-600 mt-2">
                             Pandas & Hotpot Lifestyle
-Relax in Tea Houses & Watch Sichuan Opera Magic!
+                            Relax in Tea Houses & Watch Sichuan Opera Magic!
                         </p>
                         <div class="mt-4 text-xs flex gap-2">
                             <span class="bg-gray-100 px-3 py-1 rounded-full">🐼 Pandas</span>
@@ -183,10 +191,12 @@ Relax in Tea Houses & Watch Sichuan Opera Magic!
                 <div class="bg-white rounded-3xl overflow-hidden shadow-lg card-hover border border-gray-100">
                     <img src="img/xian.jpeg" class="w-full h-48 object-cover" alt="xian">
                     <div class="p-6">
-                        <div><span class="text-red-600 font-bold text-2xl">4</span><h3 class="text-2xl font-semibold">Xi An</h3></div>
+                        <div><span class="text-red-600 font-bold text-2xl">4</span>
+                            <h3 class="text-2xl font-semibold">Xi An</h3>
+                        </div>
                         <p class="text-sm text-gray-600 mt-2">
                             Terracotta Army & Ancient Silk Road
-Walk the City Wall & Taste Roujiamo, Travel Through History!
+                            Walk the City Wall & Taste Roujiamo, Travel Through History!
                         </p>
                         <div class="mt-4 text-xs flex gap-2">
                             <span class="bg-gray-100 px-3 py-1 rounded-full">🏺 Terracotta Army</span>
@@ -203,10 +213,12 @@ Walk the City Wall & Taste Roujiamo, Travel Through History!
                 <div class="bg-white rounded-3xl overflow-hidden shadow-lg card-hover border border-gray-100">
                     <img src="img/hangzhou.jpeg" class="w-full h-48 object-cover" alt="hangzhou">
                     <div class="p-6">
-                        <div><span class="text-red-600 font-bold text-2xl">5</span><h3 class="text-2xl font-semibold">Hang Zhou</h3></div>
+                        <div><span class="text-red-600 font-bold text-2xl">5</span>
+                            <h3 class="text-2xl font-semibold">Hang Zhou</h3>
+                        </div>
                         <p class="text-sm text-gray-600 mt-2">
                             West Lake & Paradise
-Boat on West Lake & Sip Longjing Tea, Experience Serenity!
+                            Boat on West Lake & Sip Longjing Tea, Experience Serenity!
                         </p>
                         <div class="mt-4 text-xs flex gap-2">
                             <span class="bg-gray-100 px-3 py-1 rounded-full">🌊 West Lake</span>
@@ -223,10 +235,12 @@ Boat on West Lake & Sip Longjing Tea, Experience Serenity!
                 <div class="bg-white rounded-3xl overflow-hidden shadow-lg card-hover border border-gray-100">
                     <img src="img/guiling.jpeg" class="w-full h-48 object-cover" alt="Guilin">
                     <div class="p-6">
-                        <div><span class="text-red-600 font-bold text-2xl">6</span><h3 class="text-2xl font-semibold">Gui Lin</h3></div>
+                        <div><span class="text-red-600 font-bold text-2xl">6</span>
+                            <h3 class="text-2xl font-semibold">Gui Lin</h3>
+                        </div>
                         <p class="text-sm text-gray-600 mt-2">
                             Li River & Scenic Mountains
-Bamboo Rafting & Cycling, Picture-perfect Scenery!
+                            Bamboo Rafting & Cycling, Picture-perfect Scenery!
                         </p>
                         <div class="mt-4 text-xs flex gap-2">
                             <span class="bg-gray-100 px-3 py-1 rounded-full">🏞️ Karst Mountains</span>
@@ -242,8 +256,8 @@ Bamboo Rafting & Cycling, Picture-perfect Scenery!
             </div>
 
             <div class="text-center mt-10">
-                <button onclick="alert('Full city ranking would open here')" 
-                        class="px-8 py-3 border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white rounded-2xl font-medium">
+                <button onclick="alert('Full city ranking would open here')"
+                    class="px-8 py-3 border-2 border-red-600 text-red-600 hover:bg-red-600 hover:text-white rounded-2xl font-medium">
                     View All 10 Cities →
                 </button>
             </div>
@@ -254,14 +268,15 @@ Bamboo Rafting & Cycling, Picture-perfect Scenery!
     <section id="itineraries" class="py-16 bg-gray-100">
         <div class="max-w-7xl mx-auto px-6">
             <h2 class="text-4xl font-bold text-center mb-12">Popular Travel Routes for Foreign Visitors</h2>
-            
+
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Itinerary Card -->
                 <div class="bg-white rounded-3xl overflow-hidden shadow-xl card-hover">
                     <img src="img/beijing_xian_shanghai.jpeg" class="w-full h-56 object-cover" alt="Golden Triangle">
                     <div class="p-8">
                         <div class="flex justify-between">
-                            <span class="bg-amber-100 text-amber-700 text-xs font-bold px-4 py-2 rounded-3xl">Rank #1</span>
+                            <span class="bg-amber-100 text-amber-700 text-xs font-bold px-4 py-2 rounded-3xl">Rank
+                                #1</span>
                             <span class="text-sm text-gray-500">8-10 Days</span>
                         </div>
                         <h4 class="text-2xl font-bold mt-4">Golden Triangle Classic Tour</h4>
@@ -275,8 +290,8 @@ Bamboo Rafting & Cycling, Picture-perfect Scenery!
                             <span class="text-xs bg-gray-100 px-3 py-1 rounded-full">Ancient City Wall</span>
                             <span class="text-xs bg-gray-100 px-3 py-1 rounded-full">Bamboo Rafts</span>
                         </div>
-                        <button onclick="alert('Full itinerary would load here')" 
-                                class="mt-8 w-full py-4 bg-black text-white rounded-2xl hover:bg-gray-800 transition">
+                        <button onclick="alert('Full itinerary would load here')"
+                            class="mt-8 w-full py-4 bg-black text-white rounded-2xl hover:bg-gray-800 transition">
                             View Full Itinerary
                         </button>
                     </div>
@@ -287,7 +302,8 @@ Bamboo Rafting & Cycling, Picture-perfect Scenery!
                     <img src="img/chengdu_guiling_beijing.jpeg" class="w-full h-56 object-cover" alt="Panda">
                     <div class="p-8">
                         <div class="flex justify-between">
-                            <span class="bg-green-100 text-green-700 text-xs font-bold px-4 py-2 rounded-3xl">Rank #2</span>
+                            <span class="bg-green-100 text-green-700 text-xs font-bold px-4 py-2 rounded-3xl">Rank
+                                #2</span>
                             <span class="text-sm text-gray-500">7-10 Days</span>
                         </div>
                         <h3 class="text-2xl font-bold mt-4">Chengdu Panda & Guilin Karst Tour</h3>
@@ -297,8 +313,8 @@ Bamboo Rafting & Cycling, Picture-perfect Scenery!
                             <span class="text-xs bg-gray-100 px-3 py-1 rounded-full">Terracotta Warriors</span>
                             <span class="text-xs bg-gray-100 px-3 py-1 rounded-full">Modern Shanghai</span>
                         </div>
-                        <button onclick="alert('Full itinerary would load here')" 
-                                class="mt-8 w-full py-4 bg-black text-white rounded-2xl hover:bg-gray-800 transition">
+                        <button onclick="alert('Full itinerary would load here')"
+                            class="mt-8 w-full py-4 bg-black text-white rounded-2xl hover:bg-gray-800 transition">
                             View Full Itinerary
                         </button>
                     </div>
@@ -308,7 +324,8 @@ Bamboo Rafting & Cycling, Picture-perfect Scenery!
                     <img src="img/shanghai_hangzhou_suzhou.jpeg" class="w-full h-56 object-cover" alt="Avatar">
                     <div class="p-8">
                         <div class="flex justify-between">
-                            <span class="bg-blue-100 text-blue-700 text-xs font-bold px-4 py-2 rounded-3xl">Rank #3</span>
+                            <span class="bg-blue-100 text-blue-700 text-xs font-bold px-4 py-2 rounded-3xl">Rank
+                                #3</span>
                             <span class="text-sm text-gray-500">10-14 Days</span>
                         </div>
                         <h3 class="text-2xl font-bold mt-4">China Ancient History & Culture Tour</h3>
@@ -318,8 +335,8 @@ Bamboo Rafting & Cycling, Picture-perfect Scenery!
                             <span class="text-xs bg-gray-100 px-3 py-1 rounded-full">Terracotta Warriors</span>
                             <span class="text-xs bg-gray-100 px-3 py-1 rounded-full">Modern Shanghai</span>
                         </div>
-                        <button onclick="alert('Full itinerary would load here')" 
-                                class="mt-8 w-full py-4 bg-black text-white rounded-2xl hover:bg-gray-800 transition">
+                        <button onclick="alert('Full itinerary would load here')"
+                            class="mt-8 w-full py-4 bg-black text-white rounded-2xl hover:bg-gray-800 transition">
                             View Full Itinerary
                         </button>
                     </div>
@@ -332,7 +349,7 @@ Bamboo Rafting & Cycling, Picture-perfect Scenery!
     <section id="visa" class="py-16 bg-white">
         <div class="max-w-7xl mx-auto px-6">
             <h2 class="text-4xl font-bold text-center mb-12">Travel Essentials for Foreign Tourists</h2>
-            
+
             <div class="grid md:grid-cols-3 gap-10">
                 <!-- Visa -->
                 <div class="border border-gray-200 rounded-3xl p-8 hover:border-red-300 transition">
@@ -353,8 +370,8 @@ Bamboo Rafting & Cycling, Picture-perfect Scenery!
                             <div>240-hour transit visa-free in many cities</div>
                         </li>
                     </ul>
-                    <button onclick="alert('Visa checker tool coming soon')" 
-                            class="mt-8 w-full py-4 border border-red-600 text-red-600 rounded-2xl hover:bg-red-50">
+                    <button onclick="alert('Visa checker tool coming soon')"
+                        class="mt-8 w-full py-4 border border-red-600 text-red-600 rounded-2xl hover:bg-red-50">
                         Check My Visa Eligibility
                     </button>
                 </div>
@@ -366,14 +383,16 @@ Bamboo Rafting & Cycling, Picture-perfect Scenery!
                     </h3>
                     <div class="space-y-6">
                         <div class="flex items-center gap-4">
-                            <div class="w-12 h-12 bg-blue-100 rounded-2xl flex items-center justify-center text-2xl">💰</div>
+                            <div class="w-12 h-12 bg-blue-100 rounded-2xl flex items-center justify-center text-2xl">💰
+                            </div>
                             <div>
                                 <div class="font-semibold">Alipay Tour Pass</div>
                                 <div class="text-sm text-gray-600">Best for international cards</div>
                             </div>
                         </div>
                         <div class="flex items-center gap-4">
-                            <div class="w-12 h-12 bg-green-100 rounded-2xl flex items-center justify-center text-2xl">🚕</div>
+                            <div class="w-12 h-12 bg-green-100 rounded-2xl flex items-center justify-center text-2xl">🚕
+                            </div>
                             <div>
                                 <div class="font-semibold">Didi + Trip.com</div>
                                 <div class="text-sm text-gray-600">Transport &amp; tickets</div>
@@ -442,12 +461,13 @@ Bamboo Rafting & Cycling, Picture-perfect Scenery!
         console.log("%cExploreChina Homepage Loaded Successfully! 🚀", "color: #dc2626; font-weight: bold");
     </script>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZR5CLEEHMK"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-ZR5CLEEHMK');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZR5CLEEHMK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-ZR5CLEEHMK');
+    </script>
 </body>
+
 </html>
