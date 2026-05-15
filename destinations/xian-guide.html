@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xi'an Travel Guide 2026 | Complete Guide for Foreign Visitors</title>
+    <meta name="description"
+        content="Ultimate Xi'an travel guide for foreigners: Terracotta Army, City Wall, Muslim Quarter, food, 5-day detailed itinerary, transport & tips.">
+    <meta name="keywords"
+        content="Xi'an travel, Terracotta Army, Xi'an tourist guide, Xi'an food, Xi'an itinerary, ancient China">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+        }
+
+        body {
+            background: #f7f8fa;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        .section {
+            background: white;
+            border-radius: 12px;
+            padding: 35px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+        }
+
+        .section h2 {
+            color: #c0392b;
+            font-size: 28px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #f1c40f;
+            display: inline-block;
+        }
+
+        .section h3 {
+            color: #2980b9;
+            font-size: 22px;
+            margin: 25px 0 12px;
+        }
+
+        ul,
+        ol {
+            margin-left: 22px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            border: 1px solid #eee;
+            border-radius: 8px;
+            overflow: hidden;
+            padding: 0;
+        }
+
+        .card-text {
+            padding: 20px;
+        }
+
+        .card h4 {
+            color: #c0392b;
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: #fff9e6;
+            border-left: 5px solid #f39c12;
+            padding: 15px 20px;
+            margin: 20px 0;
+            font-weight: 500;
+        }
+
+        .tip {
+            background: #e8f4fd;
+            border-left: 5px solid #3498db;
+            padding: 15px 20px;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table th,
+        table td {
+            border: 1px solid #eee;
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        table th {
+            background: #f8f9fa;
+            font-weight: 600;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 50px;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .img-fluid {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .photo-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .photo-gallery img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: 0.3s ease;
+        }
+
+        .photo-gallery img:hover {
+            transform: scale(1.03);
+        }
+
+        /* Carousel */
+        .carousel-wrap {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        .carousel-list {
+            display: flex;
+            height: 100%;
+            transition: transform 0.5s ease;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .carousel-item {
+            min-width: 100%;
+            height: 100%;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .carousel-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40px;
+            height: 40px;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            font-size: 20px;
+            cursor: pointer;
+            z-index: 10;
+        }
+
+        .carousel-btn.prev {
+            left: 20px;
+        }
+
+        .carousel-btn.next {
+            right: 20px;
+        }
+
+        .dots {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 8px;
+            z-index: 10;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+        }
+
+        .dot.active {
+            background: #fff;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            .section {
+                padding: 25px 20px;
+            }
+
+            .img-fluid {
+                height: 180px;
+            }
+
+            .carousel-wrap {
+                height: 240px;
+            }
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('https://picsum.photos/id/1015/1920/1080');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <span class="text-3xl">🏯</span>
+                <div>
+                    <a href="../index.html" class="hover:text-red-600 transition">
+                        <h1 class="text-2xl font-bold text-red-600">LaoWaiTravel</h1>
+                    </a>
+                    <p class="text-xs text-gray-500 -mt-1">For International Travelers</p>
+                </div>
+            </div>
+
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
+                <a href="#" class="hover:text-red-600 transition">Destinations</a>
+                <a href="../itinerary/beijing-itinerary.html" class="hover:text-red-600 transition">Itineraries</a>
+                <a href="#" class="hover:text-red-600 transition">Visa &amp; Essentials</a>
+                <a href="#" class="hover:text-red-600 transition">Blog</a>
+            </nav>
+
+            <div class="flex items-center gap-4">
+                <select class="bg-transparent text-sm border border-gray-300 rounded-lg px-3 py-1.5 focus:outline-none">
+                    <option value="en">🇬🇧 English</option>
+                    <option value="zh">🇨🇳 中文</option>
+                    <option value="fr">🇫🇷 Français</option>
+                    <option value="de">🇩🇪 Deutsch</option>
+                </select>
+                <button onclick="alert('Search functionality coming soon!')"
+                    class="px-5 py-2 bg-gray-100 hover:bg-gray-200 rounded-full text-sm flex items-center gap-2">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <span>Search</span>
+                </button>
+                <button onclick="alert('Personalized planning tool coming soon!')"
+                    class="px-6 py-2.5 bg-red-600 hover:bg-red-700 text-white rounded-full text-sm font-semibold transition">
+                    Plan My Trip
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-3">XI'AN TRAVEL GUIDE</h2>
+            <p class="text-center text-gray-600 mb-12">Complete & Easy Guide for Foreign Tourists | Attractions •
+                Transport • Hotels • Food • Travel Tips</p>
+        </div>
+    </section>
+    <div class="max-w-7xl mx-auto px-6">
+
+        <section class="section">
+            <h2>Quick Overview</h2>
+            <p>Xi’an was the capital of 13 ancient Chinese dynasties, the starting point of the Silk Road, and home to
+                the world-famous Terracotta Army. It perfectly combines history, culture, and delicious food.</p>
+            <div class="highlight">
+                ✅ <strong>Most Important:</strong> Book Terracotta Army tickets at least 1–3 days in advance.
+            </div>
+            <p>Best travel season: <strong>March–June</strong> & <strong>September–November</strong> with cool and
+                comfortable weather.</p>
+
+            <h3>Xi’an Highlights Gallery</h3>
+            <div class="carousel-wrap">
+                <ul class="carousel-list">
+                    <li class="carousel-item">
+                        <img src="img/xian.jpeg" alt="Terracotta Army">
+                    </li>
+                    <li class="carousel-item">
+                        <img src="img/xianchengqiang.jpeg" alt="Xi’an City Wall">
+                    </li>
+                    <li class="carousel-item">
+                        <img src="img/xianhuimingjie.jpeg" alt="Muslim Quarter">
+                    </li>
+                    <li class="carousel-item">
+                        <img src="img/xianmianshi.jpeg" alt="Xi’an Food">
+                    </li>
+                </ul>
+                <button class="carousel-btn prev">❮</button>
+                <button class="carousel-btn next">❯</button>
+                <div class="dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                    <span class="dot" data-index="3"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================== 超详细 5 天行程 ====================== -->
+        <section class="section">
+            <h2>5-Day Detailed Xi’an Itinerary</h2>
+
+            <div class="card">
+                <div class="card-text">
+                    <h4>📅 Day 1: Arrival & City Wall & Muslim Quarter</h4>
+                    <ul>
+                        <li><strong>08:00–09:00</strong> Check into hotel (near Bell Tower or City Wall)</li>
+                        <li><strong>10:00–11:30</strong> Visit Bell Tower & Drum Tower</li>
+                        <li><strong>14:00–17:00</strong> Walk or cycle on the Ancient City Wall (600 years old)</li>
+                        <li><strong>18:00–21:00</strong> Muslim Quarter food tour: Roujiamo, lamb skewers, cold noodles
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top:20px;">
+                <div class="card-text">
+                    <h4>📅 Day 2: Terracotta Army (Full Day)</h4>
+                    <ul>
+                        <li><strong>07:30</strong> Leave hotel to avoid crowds</li>
+                        <li><strong>08:30–12:00</strong> Visit Pit 1 → Pit 3 → Pit 2 (the best order)</li>
+                        <li><strong>12:00–13:00</strong> Lunch nearby</li>
+                        <li><strong>14:00–15:30</strong> Visit the museum & bronze chariots</li>
+                        <li><strong>16:00</strong> Return to city center</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top:20px;">
+                <div class="card-text">
+                    <h4>📅 Day 3: Ancient Temples & Big Wild Goose Pagoda</h4>
+                    <ul>
+                        <li><strong>09:00–11:30</strong> Big Wild Goose Pagoda (Silk Road symbol)</li>
+                        <li><strong>12:00–13:30</strong> Local lunch</li>
+                        <li><strong>14:30–16:30</strong> Shaanxi History Museum (book 3 days early)</li>
+                        <li><strong>18:00–20:00</strong> Tang Dynasty Show or night market</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top:20px;">
+                <div class="card-text">
+                    <h4>📅 Day 4: Mount Hua (or Hanyang Mausoleum)</h4>
+                    <ul>
+                        <li><strong>07:00</strong> Depart for Mount Hua (1.5h by high-speed train)</li>
+                        <li><strong>09:00–17:00</strong> Hike or cable car at Mount Hua</li>
+                        <li><strong>18:00</strong> Return to Xi’an</li>
+                        <li><strong>Alternative:</strong> Hanyang Mausoleum for gentle historical tour</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top:20px;">
+                <div class="card-text">
+                    <h4>📅 Day 5: Shopping & Food & Departure</h4>
+                    <ul>
+                        <li><strong>09:00–11:00</strong> Yongxingfang Food Street</li>
+                        <li><strong>11:30–13:00</strong> Last lunch: Biangbiang Noodles</li>
+                        <li><strong>14:00</strong> Buy souvenirs</li>
+                        <li><strong>16:00</strong> Head to airport / train station</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Top Attractions & Booking Info</h2>
+            <table>
+                <tr>
+                    <th>Attraction</th>
+                    <th>Ticket</th>
+                    <th>Book Advance</th>
+                    <th>Transport</th>
+                </tr>
+                <tr>
+                    <td>Terracotta Army</td>
+                    <td>¥120</td>
+                    <td>1–3 days</td>
+                    <td>Metro Line 9 + Bus</td>
+                </tr>
+                <tr>
+                    <td>Ancient City Wall</td>
+                    <td>¥54</td>
+                    <td>Same day</td>
+                    <td>Walk from downtown</td>
+                </tr>
+                <tr>
+                    <td>Shaanxi History Museum</td>
+                    <td>Free</td>
+                    <td>3 days</td>
+                    <td>Metro Line 2/3</td>
+                </tr>
+                <tr>
+                    <td>Big Wild Goose Pagoda</td>
+                    <td>¥40</td>
+                    <td>Same day</td>
+                    <td>Metro Line 3</td>
+                </tr>
+                <tr>
+                    <td>Mount Hua</td>
+                    <td>¥160</td>
+                    <td>1 day</td>
+                    <td>High-speed train</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="section">
+            <h2>Accommodation Guide</h2>
+            <div class="grid">
+                <div class="card">
+                    <img class="img-fluid" src="img/jiudian.jfif" style="width:100%; height:300px; object-fit:cover; border-radius:8px;"
+                        alt="Xi’an Hotel">
+                    <div class="card-text">
+                        <h4>Best Areas to Stay</h4>
+                        <ul>
+                            <li>Bell Tower / Downtown</li>
+                            <li>City Wall South Gate</li>
+                            <li>Metro Line 2 stations</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img-fluid" src="img/lvguan.jfif" style="width:100%; height:300px; object-fit:cover; border-radius:8px;"
+                        alt="Budget Hotel">
+                    <div class="card-text">
+                        <h4>Tips for Foreign Tourists</h4>
+                        <ul>
+                            <li>Choose hotels near subway</li>
+                            <li>Many hotels speak English</li>
+                            <li>Price is very affordable</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+                <p>
+                    - Near the Bell Tower: Situated in the city center, within walking distance of the Bell and Drum
+                    Towers
+                    and the Muslim Quarter. The area boasts a vibrant nightlife; however, it is advisable to avoid
+                    street-facing rooms to minimize noise.
+                </p>
+                <p>
+                    - Near the Giant Wild Goose Pagoda: Located close to attractions such as the Grand Tang Dynasty
+                    Everbright City and the *Twelve Hours of Chang'an* cultural district, making it highly convenient to
+                    walk back to your accommodation after an evening outing.
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Transportation in Xi’an</h2>
+            <div class="photo-gallery">
+                <img src="img/xianditie.jpeg" style="width:100%; height:300px; object-fit:cover; border-radius:8px;" alt="Xi’an Metro">
+                <img src="img/xianchuzuche.jpeg" style="width:100%; height:300px; object-fit:cover; border-radius:8px;" alt="Bus">
+            </div>
+            <h3>1. Metro (Best Choice)</h3>
+            <ul>
+                <li>Cheap, fast, English signs available</li>
+                <li>Line 2: Most attractions</li>
+                <li>Line 9: Goes to Terracotta Army area</li>
+            </ul>
+            <h3>2. Taxis & Didi</h3>
+            <ul>
+                <li>Very cheap for foreigners</li>
+                <li>Didi is recommended</li>
+            </ul>
+            <h3>3. To Terracotta Army</h3>
+            <ul>
+                <li>Metro Line 9 → Bus 613</li>
+                <li>Direct tourist buses</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Xi’an Food & Local Cuisine</h2>
+            <div class="photo-gallery">
+                <img src="img/roujiaomo.jpeg" alt="Roujiamo">
+                <img src="img/paomo.jpeg" alt="Lamb Skewers">
+                <img src="img/xianmianshi.jpeg" alt="Cold Noodles">
+                <img src="img/shaokao.jpeg" alt="Biangbiang Noodles">
+            </div>
+            <h3>🍜 Culinary Recommendations:</h3>
+            <ul>
+                <li><strong>🌀1. Yangrou Paomo (Crumbled Flatbread in Lamb Broth), Biang Biang Noodles, and Marinated
+                        Jelly Noodles</strong></li>
+                <li><strong>🌀2. Chang'an Daipaidang: Authentic Shaanxi cuisine. Recommended dishes include Gourd
+                        Chicken, "Old-Style" Braised Three Delicacies, and Jingji Steamed Meat in Baskets.</strong></li>
+                <li><strong>🌀3. Shaanxi-style BBQ: Specialties include grilled *nang* bread (oil-brushed flatbread) and
+                        fried dough cakes. We suggest ordering the grilled chicken cartilage, beef, and beef
+                        tendons.</strong></li>
+                <li><strong>🌀4. Roujiamo (Shaanxi Meat Buns), Jinxian Youta (Golden Thread Pastry), Sesame Sauce Jelly
+                        Noodles, Handmade Spicy Strips, Zhengao (Steamed Rice Cake), Meatball Hu La Tang (Spicy Pepper
+                        Soup), and Baked Buns.</strong></li>
+            </ul>
+            <div class="tip">
+                🍜 Food Districts: Drum Tower, Yongxingfang, Sajinqiao, Fenxiang, Damaistreet, Houmiaostreet,
+                Dongxinstreet, Yuanjiacun, and Muslim Quarter.
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Essential Travel Tips for Foreigners</h2>
+            <ul>
+                <li>🏛️ Xi’an is very safe for solo travelers</li>
+                <li>🗿 Terracotta Army: arrive early to avoid huge crowds</li>
+                <li>🚶 Wear comfortable shoes for walking and hiking</li>
+                <li>🍜 Food is cheap and delicious – try street food</li>
+                <li>🚇 Metro is the best way to get around</li>
+                <li>📱 Use Didi for easy taxi rides</li>
+                <li>🆔 Always carry your passport</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer class="bg-gray-900 text-gray-400 py-16">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
+            <div>
+                <div class="flex items-center gap-3 text-white mb-6">
+                    <span class="text-4xl">🏯</span>
+                    <h3 class="text-2xl font-bold">LaoWaiTravel</h3>
+                </div>
+                <p class="text-sm">Your trusted guide to traveling in China in 2026</p>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white">Top Cities</a></li>
+                    <li><a href="#" class="hover:text-white">Itineraries</a></li>
+                    <li><a href="#" class="hover:text-white">Visa Information</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white mb-4">Resources</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white">Travel Apps Guide</a></li>
+                    <li><a href="#" class="hover:text-white">High-Speed Rail Tips</a></li>
+                    <li><a href="#" class="hover:text-white">Safety &amp; Culture</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white mb-4">Stay Connected</h4>
+                <div class="flex gap-4 text-2xl">
+                    <i class="fa-brands fa-weixin hover:text-white cursor-pointer"></i>
+                    <i class="fa-brands fa-instagram hover:text-white cursor-pointer"></i>
+                    <i class="fa-brands fa-tiktok hover:text-white cursor-pointer"></i>
+                </div>
+                <p class="text-xs mt-8">Data updated May 2026</p>
+            </div>
+        </div>
+        <div class="text-center text-xs mt-16 border-t border-gray-800 pt-8">
+            © 2026 LaoWaiTravel Guide
+        </div>
+    </footer>
+
+    <script>
+        // Tailwind script already included via CDN
+        console.log("%cExploreChina Homepage Loaded Successfully! 🚀", "color: #dc2626; font-weight: bold");
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZR5CLEEHMK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-ZR5CLEEHMK');
+    </script>
+
+    <script>
+        const carouselList = document.querySelector('.carousel-list');
+        const prevBtn = document.querySelector('.carousel-btn.prev');
+        const nextBtn = document.querySelector('.carousel-btn.next');
+        const dots = document.querySelectorAll('.dot');
+        let currentIndex = 0;
+        const total = dots.length;
+        let timer = null;
+
+        function updateCarousel() {
+            carouselList.style.transform = `translateX(-${currentIndex * 100}%)`;
+            dots.forEach((dot, i) => dot.classList.toggle('active', i === currentIndex));
+        }
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % total;
+            updateCarousel();
+        }
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + total) % total;
+            updateCarousel();
+        }
+        function startAutoPlay() {
+            timer = setInterval(nextSlide, 4000);
+        }
+        function stopAutoPlay() {
+            clearInterval(timer);
+        }
+
+        prevBtn.addEventListener('click', () => {
+            stopAutoPlay(); prevSlide(); startAutoPlay();
+        });
+        nextBtn.addEventListener('click', () => {
+            stopAutoPlay(); nextSlide(); startAutoPlay();
+        });
+        dots.forEach((dot, i) => {
+            dot.addEventListener('click', () => {
+                stopAutoPlay(); currentIndex = i; updateCarousel(); startAutoPlay();
+            });
+        });
+        document.querySelector('.carousel-wrap').addEventListener('mouseenter', stopAutoPlay);
+        document.querySelector('.carousel-wrap').addEventListener('mouseleave', startAutoPlay);
+
+        updateCarousel();
+        startAutoPlay();
+    </script>
+
+</body>
+
+</html>
