@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guangzhou Travel Guide 2026 | Complete Guide for Foreign Visitors</title>
+    <meta name="description"
+        content="Ultimate Guangzhou travel guide for foreigners: Canton Tower, Shamian Island, Chen Clan Academy, food, itinerary, transport & tips.">
+    <meta name="keywords"
+        content="Guangzhou travel, Canton Tower, Guangzhou tourist guide, Cantonese food, Shamian Island, Guangzhou itinerary">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+        }
+
+        body {
+            background: #f7f8fa;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .section {
+            background: white;
+            border-radius: 12px;
+            padding: 35px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+        }
+
+        .section h2 {
+            color: #c0392b;
+            font-size: 28px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #f1c40f;
+            display: inline-block;
+        }
+
+        .section h3 {
+            color: #2980b9;
+            font-size: 22px;
+            margin: 25px 0 12px;
+        }
+
+        ul,
+        ol {
+            margin-left: 22px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            border: 1px solid #eee;
+            border-radius: 8px;
+            overflow: hidden;
+            padding: 0;
+        }
+
+        .card-text {
+            padding: 20px;
+        }
+
+        .card h4 {
+            color: #c0392b;
+            margin-bottom: 8px;
+        }
+
+        .highlight {
+            background: #fff9e6;
+            border-left: 5px solid #f39c12;
+            padding: 15px 20px;
+            margin: 20px 0;
+            font-weight: 500;
+        }
+
+        .tip {
+            background: #e8f4fd;
+            border-left: 5px solid #3498db;
+            padding: 15px 20px;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table th,
+        table td {
+            border: 1px solid #eee;
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        table th {
+            background: #f8f9fa;
+            font-weight: 600;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 50px;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .img-fluid {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .photo-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .photo-gallery img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            transition: 0.3s ease;
+        }
+
+        .photo-gallery img:hover {
+            transform: scale(1.03);
+        }
+
+        /* Carousel */
+        .carousel-wrap {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        .carousel-list {
+            display: flex;
+            height: 100%;
+            transition: transform 0.5s ease;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .carousel-item {
+            min-width: 100%;
+            height: 100%;
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .carousel-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40px;
+            height: 40px;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            font-size: 20px;
+            cursor: pointer;
+            z-index: 10;
+        }
+
+        .carousel-btn.prev {
+            left: 20px;
+        }
+
+        .carousel-btn.next {
+            right: 20px;
+        }
+
+        .dots {
+            position: absolute;
+            bottom: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 8px;
+            z-index: 10;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+        }
+
+        .dot.active {
+            background: #fff;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 32px;
+            }
+
+            .section {
+                padding: 25px 20px;
+            }
+
+            .img-fluid {
+                height: 180px;
+            }
+
+            .carousel-wrap {
+                height: 240px;
+            }
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('https://picsum.photos/id/1015/1920/1080');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <span class="text-3xl">🏯</span>
+                <div>
+                    <a href="../index.html" class="hover:text-red-600 transition">
+                        <h1 class="text-2xl font-bold text-red-600">LaoWaiTravel</h1>
+                    </a>
+                    <p class="text-xs text-gray-500 -mt-1">For International Travelers</p>
+                </div>
+            </div>
+
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
+                <a href="#" class="hover:text-red-600 transition">Destinations</a>
+                <a href="../itinerary/beijing-itinerary.html" class="hover:text-red-600 transition">Itineraries</a>
+                <a href="#" class="hover:text-red-600 transition">Visa &amp; Essentials</a>
+                <a href="#" class="hover:text-red-600 transition">Blog</a>
+            </nav>
+
+            <div class="flex items-center gap-4">
+                <select class="bg-transparent text-sm border border-gray-300 rounded-lg px-3 py-1.5 focus:outline-none">
+                    <option value="en">🇬🇧 English</option>
+                    <option value="zh">🇨🇳 中文</option>
+                    <option value="fr">🇫🇷 Français</option>
+                    <option value="de">🇩🇪 Deutsch</option>
+                </select>
+                <button onclick="alert('Search functionality coming soon!')"
+                    class="px-5 py-2 bg-gray-100 hover:bg-gray-200 rounded-full text-sm flex items-center gap-2">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <span>Search</span>
+                </button>
+                <button onclick="alert('Personalized planning tool coming soon!')"
+                    class="px-6 py-2.5 bg-red-600 hover:bg-red-700 text-white rounded-full text-sm font-semibold transition">
+                    Plan My Trip
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-3">GUANG ZHOU TRAVEL GUIDE</h2>
+            <p class="text-center text-gray-600 mb-12">Complete & Easy Guide for Foreign Tourists | Attractions •
+                Transport • Hotels • Food • Travel Tips</p>
+        </div>
+    </section>
+    <div class="max-w-7xl mx-auto px-6">
+        <section class="section">
+        <h2>Quick Overview</h2>
+        <p>Guangzhou, also known as Canton, is the capital of Guangdong and a major international trade hub. It’s
+            famous for delicious Cantonese food, modern skyscrapers, historical sites, and a subtropical climate.
+        </p>
+        <div class="highlight">
+            ✅ <strong>Most Important:</strong> Try Cantonese morning tea (Yum Cha) – it’s a local lifestyle!
+        </div>
+        <p>Best travel season: <strong>October–April</strong> with cool and comfortable weather.</p>
+
+        <h3>Guangzhou Highlights Gallery</h3>
+        <div class="carousel-wrap">
+            <ul class="carousel-list">
+                <li class="carousel-item">
+                    <img src="img/guangzhoutao.jpeg" alt="Canton Tower">
+                </li>
+                <li class="carousel-item">
+                    <img src="img/zhujiangyeyou.jpeg" alt="Pearl River">
+                </li>
+                <li class="carousel-item">
+                    <img src="img/guangzhouzachao.jpeg" alt="Cantonese Food">
+                </li>
+                <li class="carousel-item">
+                    <img src="img/guangzhouershadao.jpeg" alt="Shamian Island">
+                </li>
+            </ul>
+            <button class="carousel-btn prev">❮</button>
+            <button class="carousel-btn next">❯</button>
+            <div class="dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+            </div>
+        </div>
+        </section>
+
+        <section class="section">
+            <h2>5-Day Detailed Guangzhou Itinerary</h2>
+
+            <div class="card">
+                <div class="card-text">
+                    <h4>📅 Day 1: Canton Tower & Pearl River</h4>
+                    <ul>
+                        <li><strong>Morning</strong> Visit Canton Tower (Xiaoman Yao)</li>
+                        <li><strong>Afternoon</strong> Haixinsha Asian Games Park</li>
+                        <li><strong>Evening</strong> Pearl River Night Cruise</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top:20px;">
+                <div class="card-text">
+                    <h4>📅 Day 2: History & Culture</h4>
+                    <ul>
+                        <li><strong>Morning</strong> Chen Clan Academy (Ancestral Hall)</li>
+                        <li><strong>Afternoon</strong> Liurong Temple & Beijing Road</li>
+                        <li><strong>Evening</strong> Shangxiajiu Pedestrian Street</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top:20px;">
+                <div class="card-text">
+                    <h4>📅 Day 3: European Style & Nature</h4>
+                    <ul>
+                        <li><strong>Morning</strong> Shamian Island (European buildings)</li>
+                        <li><strong>Afternoon</strong> Yuexiu Park & Five Rams Statue</li>
+                        <li><strong>Evening</strong> Local food experience</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top:20px;">
+                <div class="card-text">
+                    <h4>📅 Day 4: Cantonese Food Tour</h4>
+                    <ul>
+                        <li><strong>Morning</strong> Morning Tea (Yum Cha) experience</li>
+                        <li><strong>Afternoon</strong> Local market & food tasting</li>
+                        <li><strong>Evening</strong> Cantonese dinner</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" style="margin-top:20px;">
+                <div class="card-text">
+                    <h4>📅 Day 5: Shopping & Departure</h4>
+                    <ul>
+                        <li><strong>Morning</strong> Taikoo Hui or shopping mall</li>
+                        <li><strong>Afternoon</strong> Buy souvenirs</li>
+                        <li><strong>Evening</strong> Departure</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Top Attractions & Booking Info</h2>
+            <table>
+                <tr>
+                    <th>Attraction</th>
+                    <th>Ticket Price</th>
+                    <th>Booking Advance</th>
+                    <th>Metro Station</th>
+                </tr>
+                <tr>
+                    <td>Canton Tower</td>
+                    <td>¥150</td>
+                    <td>1 day</td>
+                    <td>Line 3 / APM</td>
+                </tr>
+                <tr>
+                    <td>Chen Clan Academy</td>
+                    <td>¥10</td>
+                    <td>Same day</td>
+                    <td>Line 1</td>
+                </tr>
+                <tr>
+                    <td>Shamian Island</td>
+                    <td>Free</td>
+                    <td>No need</td>
+                    <td>Line 1 / 6</td>
+                </tr>
+                <tr>
+                    <td>Yuexiu Park</td>
+                    <td>Free</td>
+                    <td>No need</td>
+                    <td>Line 2 / 5</td>
+                </tr>
+                <tr>
+                    <td>Pearl River Cruise</td>
+                    <td>¥80–180</td>
+                    <td>1 day</td>
+                    <td>Tianzi Wharf</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="section">
+            <h2>Accommodation Guide</h2>
+            <div class="grid">
+                <div class="card">
+                    <img class="img-fluid" src="img/jiudian.jfif" style="width:100%; height:300px; object-fit:cover; border-radius:8px;"
+                        alt="Guangzhou Hotel">
+                    <div class="card-text">
+                        <h4>Best Areas to Stay</h4>
+                        <ul>
+                            <li>Tianhe Central Business District</li>
+                            <li>Beijing Road Downtown</li>
+                            <li>Near Canton Tower</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="img-fluid" src="img/lvguan.jfif" style="width:100%; height:300px; object-fit:cover; border-radius:8px;"
+                        alt="Budget Hotel">
+                    <div class="card-text">
+                        <h4>Tips for Foreign Tourists</h4>
+                        <ul>
+                            <li>Choose hotels near metro stations</li>
+                            <li>Many international hotels available</li>
+                            <li>Good price and high quality</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Transportation in Guangzhou</h2>
+            <div class="photo-gallery">
+                <img src="img/guangzhouditie.jpeg" alt="Guangzhou Metro" style="width:100%; height:300px; object-fit:cover; border-radius:8px;">
+                <img src="img/guangzhoubrt.jpeg" alt="Bus" style="width:100%; height:300px; object-fit:cover; border-radius:8px;">
+            </div>
+            <h3>1. Metro (Best Choice)</h3>
+            <ul>
+                <li>Fast, cheap, English signs available</li>
+                <li>Covers all major attractions</li>
+                <li>Very convenient for tourists</li>
+            </ul>
+            <h3>2. Taxis & Ride Hailing</h3>
+            <ul>
+                <li>Didi is recommended</li>
+                <li>Cheap and reliable</li>
+            </ul>
+            <h3>3. Airport & Transport</h3>
+            <ul>
+                <li>Baiyun International Airport</li>
+                <li>Metro Line 3 connects airport to city</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Guangzhou Food & Cantonese Cuisine</h2>
+            <div class="photo-gallery">
+                <img src="img/guangzhouzachao.jpeg" alt="Dim Sum">
+                <img src="img/guangzhoushaoe.jpeg" alt="Roast Goose">
+                <img src="img/guangzhouchangfen.jpeg" alt="Wonton Noodles">
+                <img src="img/guangzhouyuntun.jpeg" alt="Cantonese Snacks">
+            </div>
+            <h3>Must-Try Dishes</h3>
+            <ul>
+                <li><strong>Dim Sum (Har Gow, Siu Mai)</strong></li>
+                <li><strong>Cantonese Roast Goose</strong></li>
+                <li><strong>Wonton Noodles</strong></li>
+                <li><strong>Congee & You Tiao</strong></li>
+                <li><strong>Steamed Vermicelli Roll</strong></li>
+            </ul>
+            <div class="tip">
+                🍜 Best food areas: Beijing Road, Shangxiajiu, Tianhe District
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Essential Travel Tips for Foreigners</h2>
+            <ul>
+                <li>🍵 Try Cantonese morning tea (Yum Cha) – a must cultural experience</li>
+                <li>☀️ Guangzhou is warm – wear light clothes</li>
+                <li>🚇 Metro is the best way to travel around</li>
+                <li>🍽️ Food is very fresh and healthy</li>
+                <li>🏙️ Very safe for solo travelers</li>
+                <li>📱 Use Didi for easy transportation</li>
+                <li>🆔 Carry your passport at all times</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer class="bg-gray-900 text-gray-400 py-16">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
+            <div>
+                <div class="flex items-center gap-3 text-white mb-6">
+                    <span class="text-4xl">🏯</span>
+                    <h3 class="text-2xl font-bold">LaoWaiTravel</h3>
+                </div>
+                <p class="text-sm">Your trusted guide to traveling in China in 2026</p>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white">Top Cities</a></li>
+                    <li><a href="#" class="hover:text-white">Itineraries</a></li>
+                    <li><a href="#" class="hover:text-white">Visa Information</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white mb-4">Resources</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white">Travel Apps Guide</a></li>
+                    <li><a href="#" class="hover:text-white">High-Speed Rail Tips</a></li>
+                    <li><a href="#" class="hover:text-white">Safety &amp; Culture</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white mb-4">Stay Connected</h4>
+                <div class="flex gap-4 text-2xl">
+                    <i class="fa-brands fa-weixin hover:text-white cursor-pointer"></i>
+                    <i class="fa-brands fa-instagram hover:text-white cursor-pointer"></i>
+                    <i class="fa-brands fa-tiktok hover:text-white cursor-pointer"></i>
+                </div>
+                <p class="text-xs mt-8">Data updated May 2026</p>
+            </div>
+        </div>
+        <div class="text-center text-xs mt-16 border-t border-gray-800 pt-8">
+            © 2026 LaoWaiTravel Guide
+        </div>
+    </footer>
+
+    <script>
+        // Tailwind script already included via CDN
+        console.log("%cExploreChina Homepage Loaded Successfully! 🚀", "color: #dc2626; font-weight: bold");
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZR5CLEEHMK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-ZR5CLEEHMK');
+    </script>
+
+    <script>
+        const carouselList = document.querySelector('.carousel-list');
+        const prevBtn = document.querySelector('.carousel-btn.prev');
+        const nextBtn = document.querySelector('.carousel-btn.next');
+        const dots = document.querySelectorAll('.dot');
+        let currentIndex = 0;
+        const total = dots.length;
+        let timer = null;
+
+        function updateCarousel() {
+            carouselList.style.transform = `translateX(-${currentIndex * 100}%)`;
+            dots.forEach((dot, i) => dot.classList.toggle('active', i === currentIndex));
+        }
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % total;
+            updateCarousel();
+        }
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + total) % total;
+            updateCarousel();
+        }
+        function startAutoPlay() {
+            timer = setInterval(nextSlide, 4000);
+        }
+        function stopAutoPlay() {
+            clearInterval(timer);
+        }
+
+        prevBtn.addEventListener('click', () => {
+            stopAutoPlay(); prevSlide(); startAutoPlay();
+        });
+        nextBtn.addEventListener('click', () => {
+            stopAutoPlay(); nextSlide(); startAutoPlay();
+        });
+        dots.forEach((dot, i) => {
+            dot.addEventListener('click', () => {
+                stopAutoPlay(); currentIndex = i; updateCarousel(); startAutoPlay();
+            });
+        });
+        document.querySelector('.carousel-wrap').addEventListener('mouseenter', stopAutoPlay);
+        document.querySelector('.carousel-wrap').addEventListener('mouseleave', startAutoPlay);
+
+        updateCarousel();
+        startAutoPlay();
+    </script>
+
+</body>
+
+</html>
