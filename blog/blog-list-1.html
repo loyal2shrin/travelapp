@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog | LaoWaiTravel</title>
+    <meta name="description"
+        content="Travel blogs, guides, tips and stories for international travelers visiting China.">
+    <meta name="keywords" content="China travel blog, travel guide, travel tips, stories, experiences">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+        }
+
+        body {
+            background: #f7f8fa;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        .blog-card {
+            transition: all 0.3s ease;
+        }
+
+        .blog-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .blog-img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 顶部导航 -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <span class="text-3xl">🏯</span>
+                <div>
+                    <a href="../index.html" class="hover:text-red-600 transition">
+                        <h1 class="text-2xl font-bold text-red-600">LaoWaiTravel</h1>
+                    </a>
+                    <p class="text-xs text-gray-500 -mt-1">For International Travelers</p>
+                </div>
+            </div>
+
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
+                <a href="#" class="hover:text-red-600 transition">Destinations</a>
+                <a href="../itinerary/beijing-itinerary.html" class="hover:text-red-600 transition">Itineraries</a>
+                <a href="#" class="hover:text-red-600 transition">Visa & Essentials</a>
+                <a href="#" class="text-red-600 border-b-2 border-red-600 pb-1">Blog</a>
+            </nav>
+
+            <div class="flex items-center gap-4">
+                <select class="bg-transparent text-sm border border-gray-300 rounded-lg px-3 py-1.5 focus:outline-none">
+                    <option value="en">🇬🇧 English</option>
+                    <option value="zh">🇨🇳 中文</option>
+                    <option value="fr">🇫🇷 Français</option>
+                    <option value="de">🇩🇪 Deutsch</option>
+                </select>
+                <button onclick="alert('Search functionality coming soon!')"
+                    class="px-5 py-2 bg-gray-100 hover:bg-gray-200 rounded-full text-sm flex items-center gap-2">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <span>Search</span>
+                </button>
+                <button onclick="alert('Personalized planning tool coming soon!')"
+                    class="px-6 py-2.5 bg-red-600 hover:bg-red-700 text-white rounded-full text-sm font-semibold transition">
+                    Plan My Trip
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 博客头部 -->
+    <section class="py-14 bg-white">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-3">TRAVEL BLOG 1</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">Useful guides, travel tips and stories for your trip in China</p>
+        </div>
+    </section>
+
+    <!-- 博客列表：12篇 -->
+    <div class="max-w-7xl mx-auto px-6 py-10">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- 1 -->
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden blog-card">
+                <img src="https://picsum.photos/id/1036/800/500" alt="Blog" class="blog-img">
+                <div class="p-6">
+                    <div class="text-xs text-gray-500 mb-2">Travel Guide</div>
+                    <h3 class="text-xl font-bold mb-2">A Complete Guide for First-Time Visitors to China</h3>
+                    <p class="text-gray-600 text-sm mb-4">Essential tips about transportation, apps, etiquette, safety
+                        and daily life.</p>
+                    <a href="#" class="text-red-600 text-sm font-medium hover:underline">Read More →</a>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden blog-card">
+                <img src="https://picsum.photos/id/1061/800/500" alt="Blog" class="blog-img">
+                <div class="p-6">
+                    <div class="text-xs text-gray-500 mb-2">Travel Tips</div>
+                    <h3 class="text-xl font-bold mb-2">10 Useful Apps You Need When Traveling in China</h3>
+                    <p class="text-gray-600 text-sm mb-4">Best apps for transport, payment, translation, food and
+                        navigation.</p>
+                    <a href="#" class="text-red-600 text-sm font-medium hover:underline">Read More →</a>
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden blog-card">
+                <img src="https://picsum.photos/id/1047/800/500" alt="Blog" class="blog-img">
+                <div class="p-6">
+                    <div class="text-xs text-gray-500 mb-2">Cultural Tips</div>
+                    <h3 class="text-xl font-bold mb-2">Chinese Etiquette: Do’s and Don’ts for Travelers</h3>
+                    <p class="text-gray-600 text-sm mb-4">Understand local customs to make your trip smoother and more
+                        respectful.</p>
+                    <a href="#" class="text-red-600 text-sm font-medium hover:underline">Read More →</a>
+                </div>
+            </div>
+
+            <!-- 4 -->
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden blog-card">
+                <img src="https://picsum.photos/id/1060/800/500" alt="Blog" class="blog-img">
+                <div class="p-6">
+                    <div class="text-xs text-gray-500 mb-2">Food Guide</div>
+                    <h3 class="text-xl font-bold mb-2">How to Order Food in China Without Speaking Chinese</h3>
+                    <p class="text-gray-600 text-sm mb-4">Simple phrases, gestures and tips to help you enjoy local food
+                        easily.</p>
+                    <a href="#" class="text-red-600 text-sm font-medium hover:underline">Read More →</a>
+                </div>
+            </div>
+
+            <!-- 5 -->
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden blog-card">
+                <img src="https://picsum.photos/id/1050/800/500" alt="Blog" class="blog-img">
+                <div class="p-6">
+                    <div class="text-xs text-gray-500 mb-2">Transport Guide</div>
+                    <h3 class="text-xl font-bold mb-2">A Beginner’s Guide to China’s High-Speed Trains</h3>
+                    <p class="text-gray-600 text-sm mb-4">How to buy tickets, read stations, choose seats and travel
+                        comfortably.</p>
+                    <a href="#" class="text-red-600 text-sm font-medium hover:underline">Read More →</a>
+                </div>
+            </div>
+
+            <!-- 6 -->
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden blog-card">
+                <img src="https://picsum.photos/id/1039/800/500" alt="Blog" class="blog-img">
+                <div class="p-6">
+                    <div class="text-xs text-gray-500 mb-2">Photography Tips</div>
+                    <h3 class="text-xl font-bold mb-2">Best Photography Spots in China for Travelers</h3>
+                    <p class="text-gray-600 text-sm mb-4">Capture beautiful landscapes, city views and cultural moments
+                        like a pro.</p>
+                    <a href="#" class="text-red-600 text-sm font-medium hover:underline">Read More →</a>
+                </div>
+            </div>
+
+            <!-- 7 -->
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden blog-card">
+                <img src="https://picsum.photos/id/1018/800/500" alt="Blog" class="blog-img">
+                <div class="p-6">
+                    <div class="text-xs text-gray-500 mb-2">Budget Travel</div>
+                    <h3 class="text-xl font-bold mb-2">How to Travel China on a Budget: Money-Saving Hacks</h3>
+                    <p class="text-gray-600 text-sm mb-4">Save money on accommodation, food, transport and attractions
+                        while traveling.</p>
+                    <a href="#" class="text-red-600 text-sm font-medium hover:underline">Read More →</a>
+                </div>
+            </div>
+
+            <!-- 8 -->
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden blog-card">
+                <img src="https://picsum.photos/id/1015/800/500" alt="Blog" class="blog-img">
+                <div class="p-6">
+                    <div class="text-xs text-gray-500 mb-2">Solo Travel</div>
+                    <h3 class="text-xl font-bold mb-2">Solo Travel in China: Safety Tips & Complete Guide</h3>
+                    <p class="text-gray-600 text-sm mb-4">Stay safe, make friends and enjoy your solo adventure in
+                        China.</p>
+                    <a href="#" class="text-red-600 text-sm font-medium hover:underline">Read More →</a>
+                </div>
+            </div>
+
+            <!-- 9 -->
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden blog-card">
+                <img src="https://picsum.photos/id/1041/800/500" alt="Blog" class="blog-img">
+                <div class="p-6">
+                    <div class="text-xs text-gray-500 mb-2">Accommodation</div>
+                    <h3 class="text-xl font-bold mb-2">How to Choose the Best Hotels in Chinese Cities</h3>
+                    <p class="text-gray-600 text-sm mb-4">Tips for finding safe, clean and well-located places to stay.
+                    </p>
+                    <a href="#" class="text-red-600 text-sm font-medium hover:underline">Read More →</a>
+                </div>
+            </div>
+
+            <!-- 10 -->
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden blog-card">
+                <img src="https://picsum.photos/id/1025/800/500" alt="Blog" class="blog-img">
+                <div class="p-6">
+                    <div class="text-xs text-gray-500 mb-2">Travel Hacks</div>
+                    <h3 class="text-xl font-bold mb-2">15 Hidden Travel Hacks for a Smooth China Trip</h3>
+                    <p class="text-gray-600 text-sm mb-4">Little-known tricks to make your travel easier and more
+                        enjoyable.</p>
+                    <a href="#" class="text-red-600 text-sm font-medium hover:underline">Read More →</a>
+                </div>
+            </div>
+
+            <!-- 11 -->
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden blog-card">
+                <img src="https://picsum.photos/id/1031/800/500" alt="Blog" class="blog-img">
+                <div class="p-6">
+                    <div class="text-xs text-gray-500 mb-2">Outdoor Travel</div>
+                    <h3 class="text-xl font-bold mb-2">Best Hiking & Outdoor Activities for Travelers in China</h3>
+                    <p class="text-gray-600 text-sm mb-4">Top mountains, parks and outdoor experiences you shouldn’t
+                        miss.</p>
+                    <a href="#" class="text-red-600 text-sm font-medium hover:underline">Read More →</a>
+                </div>
+            </div>
+
+            <!-- 12 -->
+            <div class="bg-white rounded-xl shadow-sm overflow-hidden blog-card">
+                <img src="https://picsum.photos/id/1059/800/500" alt="Blog" class="blog-img">
+                <div class="p-6">
+                    <div class="text-xs text-gray-500 mb-2">Travel Planning</div>
+                    <h3 class="text-xl font-bold mb-2">How to Plan a 7–10 Day Trip in China: Step-by-Step Guide</h3>
+                    <p class="text-gray-600 text-sm mb-4">Create a perfect itinerary with attractions, transport and
+                        time management.</p>
+                    <a href="#" class="text-red-600 text-sm font-medium hover:underline">Read More →</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- 修复后的可用分页 -->
+        <div class="flex justify-center mt-16">
+            <nav class="flex items-center gap-2">
+                <!--
+                <a href="#"
+                    class="px-4 py-2 bg-white border rounded hover:bg-red-50 text-gray-600 hover:text-red-600">Previous</a>
+                -->
+                <a href="#" class="px-4 py-2 bg-red-600 text-white rounded">1</a>
+                <a href="blog-list-2.html"
+                    class="px-4 py-2 bg-white border rounded hover:bg-red-50 text-gray-600 hover:text-red-600">2</a>
+                <a href="blog-list-3.html"
+                    class="px-4 py-2 bg-white border rounded hover:bg-red-50 text-gray-600 hover:text-red-600">3</a>
+                <a href="blog-list-2.html"
+                    class="px-4 py-2 bg-white border rounded hover:bg-red-50 text-gray-600 hover:text-red-600">Next</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <footer class="bg-gray-900 text-gray-400 py-16">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-10">
+            <div>
+                <div class="flex items-center gap-3 text-white mb-6">
+                    <span class="text-4xl">🏯</span>
+                    <h3 class="text-2xl font-bold">LaoWaiTravel</h3>
+                </div>
+                <p class="text-sm">Your trusted guide to traveling in China in 2026</p>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white mb-4">Quick Links</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white">Top Cities</a></li>
+                    <li><a href="#" class="hover:text-white">Itineraries</a></li>
+                    <li><a href="#" class="hover:text-white">Visa Information</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white mb-4">Resources</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#" class="hover:text-white">Travel Apps Guide</a></li>
+                    <li><a href="#" class="hover:text-white">High-Speed Rail Tips</a></li>
+                    <li><a href="#" class="hover:text-white">Safety & Culture</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-semibold text-white mb-4">Stay Connected</h4>
+                <div class="flex gap-4 text-2xl">
+                    <i class="fa-brands fa-weixin hover:text-white cursor-pointer"></i>
+                    <i class="fa-brands fa-instagram hover:text-white cursor-pointer"></i>
+                    <i class="fa-brands fa-tiktok hover:text-white cursor-pointer"></i>
+                </div>
+                <p class="text-xs mt-8">Data updated May 2026</p>
+            </div>
+        </div>
+        <div class="text-center text-xs mt-16 border-t border-gray-800 pt-8">
+            © 2026 LaoWaiTravel Guide
+        </div>
+    </footer>
+
+</body>
+
+</html>
