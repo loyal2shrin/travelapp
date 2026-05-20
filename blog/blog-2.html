@@ -61,34 +61,39 @@
 
 <body class="bg-gray-50 font-sans">
 
-    <!-- Header SAME AS index.html -->
+    <!-- Header -->
     <header class="bg-white shadow-md sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
             <div class="flex items-center space-x-3">
                 <span class="text-3xl">🏯</span>
                 <div>
-                    <a href="../index.html" class="hover:text-red-600 transition">
+                    <a href="#" class="hover:text-red-600 transition">
                         <h1 class="text-2xl font-bold text-red-600">LaoWaiTravel</h1>
                     </a>
                     <p class="text-xs text-gray-500 -mt-1">For International Travelers</p>
                 </div>
             </div>
+
             <nav class="hidden md:flex items-center space-x-8 text-sm font-medium">
                 <a href="#" class="hover:text-red-600 transition">Destinations</a>
-                <a href="../itinerary/beijing-itinerary.html" class="hover:text-red-600 transition">Itineraries</a>
-                <a href="#" class="hover:text-red-600 transition">Visa & Essentials</a>
-                <a href="blog-list-1.html" class="text-red-600 border-b-2 border-red-600 pb-1">Blog</a>
+                <a href="itinerary/beijing-itinerary.html" class="hover:text-red-600 transition">Itineraries</a>
+                <a href="#" class="hover:text-red-600 transition">Visa &amp; Essentials</a>
+                <a href="blog-list-1.html" class="hover:text-red-600 transition">Blog</a>
             </nav>
+
             <div class="flex items-center gap-4">
                 <select class="bg-transparent text-sm border border-gray-300 rounded-lg px-3 py-1.5 focus:outline-none">
                     <option value="en">🇬🇧 English</option>
                     <option value="zh">🇨🇳 中文</option>
+                    <option value="fr">🇫🇷 Français</option>
+                    <option value="de">🇩🇪 Deutsch</option>
                 </select>
-                <button class="px-5 py-2 bg-gray-100 hover:bg-gray-200 rounded-full text-sm flex items-center gap-2">
+                <button onclick="alert('Search functionality coming soon!')"
+                    class="px-5 py-2 bg-gray-100 hover:bg-gray-200 rounded-full text-sm flex items-center gap-2">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <span>Search</span>
                 </button>
-                <button
+                <button onclick="alert('Personalized planning tool coming soon!')"
                     class="px-6 py-2.5 bg-red-600 hover:bg-red-700 text-white rounded-full text-sm font-semibold transition">
                     Plan My Trip
                 </button>
